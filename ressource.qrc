@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/enter.png</file>
+        <file>img/backspace.jpg</file>
+        <file>img/caps.png</file>
+    </qresource>
+</RCC>
