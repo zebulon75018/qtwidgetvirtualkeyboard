@@ -105,7 +105,8 @@ void Keyboard::initKeys( int indexArraykeys,const char *keymap[])
 void Keyboard::initTooltip()
 {
     tooltip = new QLabel("");
-    tooltip->setWindowFlags(Qt::WindowDoesNotAcceptFocus | Qt::Tool | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint | Qt::BypassWindowManagerHint);
+    tooltip->setWindowFlags( Qt::Tool | Qt::FramelessWindowHint | Qt::WindowStaysOnTopHint );
+
     QFont serifFont("Times", 18, QFont::Bold);
     tooltip->setFont(serifFont);
     tooltip->setAlignment(Qt::AlignCenter);
