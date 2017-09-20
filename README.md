@@ -6,6 +6,12 @@ When the user click one a virtual key an other window appear with the letter pre
 
 Compatible QT5 and QT4 
 
+The signals emit by this widget are :
+
+    void keyPressed( QString t);
+    void backspacePressed(  );
+    void returnPressed(  );
+
 ![img](screenshot/shot1.png "")
 
 ![img](screenshot/shot2.png "")
