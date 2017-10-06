@@ -1,7 +1,6 @@
 #include <QLabel>
 
 #include "mainwindow.h"
-#include "graphickey.h"
 #include "keyboard.h"
 
 MainWindow::MainWindow(QWidget *parent)
